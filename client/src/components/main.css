@@ -1,0 +1,110 @@
+a{
+    text-decoration: none;
+    color: #f5c945
+}
+body{
+    background:#ddd
+}
+tr:hover{
+}
+a:hover{
+    text-decoration:none;
+    color: #EFB933
+}
+.bodyText{
+     font-size: 22px;
+     padding-left: 15%;
+     padding-right: 15%;
+     margin-top: 2.5%;
+}
+.button1{
+    border: 1px solid #EFB933;
+    background-color:#f5c945
+}
+
+.button1:hover{
+    -webkit-transition: all 300ms ease-out .05s;
+   transition: all 300ms ease-out .05s;
+   -moz-transition: all 300ms ease-out .05s;
+   -o-transition: all 300ms ease-out .05s;
+   background-color: #EFB933;
+   transform: scale(1.05);
+   border: 1px solid #EFB933
+}
+
+.left{
+   position:absolute;
+   bottom: 30%;
+   left: 25%;
+}
+.logo{
+    position:absolute;
+    top: 22.5%;
+    left: 40%;
+    height: 150px;
+}
+.hashhome{
+    position:absolute;
+    top: 2.5%;
+    left: 8%
+}
+.nav1{
+    position:absolute;
+    right: 22.5%;
+    top: 2.5%;
+    
+}
+.nav2{
+    position:absolute;
+    right: 10%;
+    top: 2.5%;
+}
+.right{
+    position: absolute;
+    right: 25%;
+    bottom: 30%
+}
+.secondlogo{
+    margin-top: 2.5%;
+    right: 5%
+}
+.subButt{
+    margin-left: 5%;
+}
+.tablEx{
+    margin-left: 15%
+}
+.tablEx1{
+    margin-left: 75%
+}
+.topper{
+    margin-top: 5%
+}
+.update{
+    border: 1px solid #EFB933;
+    background-color:#346596
+}
+.update{
+    cursor: pointer;
+   
+}
+
+.zscore{
+    background-color:#89206e
+    
+}
+.zscore:hover{
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-out .05s;
+   transition: all 300ms ease-out .05s;
+   -moz-transition: all 300ms ease-out .05s;
+   -o-transition: all 300ms ease-out .05s;
+
+}
+#header{
+    background-color:#346596;
+    height: 3.5em;
+    font-family: 'Catamaran', sans-serif;
+
+
+}
