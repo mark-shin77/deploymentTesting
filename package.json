@@ -24,6 +24,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "concurrently": "*",
     "morgan": "^1.9.1",
     "mysql2": "^1.6.5",
     "path": "^0.12.7",
