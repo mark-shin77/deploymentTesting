@@ -22,9 +22,10 @@
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.4",
     "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
     "concurrently": "*",
+    "cors": "^2.8.5",
+    "depcheck": "^0.7.2",
+    "express": "^4.16.4",
     "morgan": "^1.9.1",
     "mysql2": "^1.6.5",
     "path": "^0.12.7",
