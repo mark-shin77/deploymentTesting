@@ -6,7 +6,7 @@ const logger = require("morgan")
 // Initialize Express
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const db = require("./models");
 //Middleware
 app.use(express.urlencoded({ extended: true }));
@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'))
 
     app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+        res.sendFile(path.resolve(__dirname, "./client/build/index.html"))
     })
 }
 
