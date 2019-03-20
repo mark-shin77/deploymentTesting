@@ -6,7 +6,7 @@ const logger = require("morgan")
 // Initialize Express
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 const db = require("./models");
 //Middleware
 app.use(express.urlencoded({ extended: true }));
