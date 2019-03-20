@@ -33,12 +33,12 @@ app.use("/api", apiRoutes);
 // 
 
 
-db.sequelize.sync({force:false}).then(function(){
+db.sequelize.sync({})
+
+app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
     app.listen(PORT, function(){
         console.log(`APP listening on PORT ${PORT}`)
-    });
-})
-
-// app.get("*", function(req, res) {
-//     res.sendFile(path.join(__dirname, "./client/build/index.html"));
-// });
+ });
