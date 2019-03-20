@@ -39,7 +39,7 @@ app.use("/api", apiRoutes);
 //     })
 // }
 
-db.sequelize.sync({force: false}).then(function(){
+db.sequelize.sync({}).then(function(){
     app.listen(PORT, function(){
         console.log(`APP listening on PORT ${PORT}`)
     });
