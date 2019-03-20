@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const cors = require('cors');
+// const cors = require('cors');
 const bodyParser = require('body-parser');
 const logger = require("morgan")
 // Initialize Express
@@ -25,7 +25,7 @@ app.use("/api", apiRoutes);
     // Use body parser
     app.use(bodyParser.json());
     // Use cors
-    app.use(cors());
+    // app.use(cors());
 
 // Connecting to DB
 
